@@ -53,7 +53,10 @@ const ColorPicker = {
         : undefined,
     };
 
-    RNCColorPicker.showColorPicker(convertedOptions);
+    RNCColorPicker.showColorPicker(
+      convertedOptions,
+      callback ? callback : () => {}
+    );
   },
 };
 
