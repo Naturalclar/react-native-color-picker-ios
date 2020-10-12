@@ -4,7 +4,7 @@
 
 @interface RCT_EXTERN_MODULE(RNCColorPicker, NSObject)
 
-RCT_EXTERN_METHOD(showColorPicker)
+RCT_EXTERN_METHOD(showColorPicker:(NSDictionary*)options)
 
 @end
 

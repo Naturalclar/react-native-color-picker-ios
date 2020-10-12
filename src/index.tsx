@@ -1,7 +1,35 @@
 import { NativeModules } from 'react-native';
 
-const { RNCColorPicker } = NativeModules;
+type ColorPickerOptions = {
+  /**
+   * whether alpha is supported or not.
+   * if true, user can chose the opacity of the color
+   * @default false
+   */
+  supportsAlpha?: boolean;
+};
 
-// const ColorPicker = requireNativeComponent('RNCColorPicker');
+type ColorPickerMethods = {
+  showColorPicker: (
+    /**
+     * options for color picker
+     */
+    options?: ColorPickerOptions,
+    /**
+     * callback method once color is chosen
+     */
+    callback?: (color: string) => void
+  ) => void;
+};
 
-export default RNCColorPicker;
+const { RNCColorPicker } = NativeModules as {
+  RNCColorPicker: ColorPickerMethods;
+};
+
+const ColorPicker = {
+  showColorPicker: (options?: ColorPickerOptions) => {
+    RNCColorPicker.showColorPicker(options || {});
+  },
+};
+
+export default ColorPicker;

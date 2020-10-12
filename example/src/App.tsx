@@ -3,9 +3,8 @@ import { StyleSheet, SafeAreaView, TouchableOpacity, Text } from 'react-native';
 import ColorPicker from 'react-native-color-picker-ios';
 
 export default function App() {
-  console.warn(ColorPicker);
   const handlePress = () => {
-    ColorPicker.showColorPicker();
+    ColorPicker.showColorPicker({ supportsAlpha: true });
   };
   return (
     <SafeAreaView style={styles.container}>
