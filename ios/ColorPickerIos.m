@@ -2,6 +2,11 @@
 
 #import <React/RCTViewManager.h>
 
-@interface RCT_EXTERN_MODULE(RNCColorPicker, RCTViewManager)
+@interface RCT_EXTERN_MODULE(RNCColorPicker, NSObject)
+
+RCT_EXTERN_METHOD(showColorPicker)
+
 @end
+
+
 

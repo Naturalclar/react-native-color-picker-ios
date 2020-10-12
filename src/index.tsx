@@ -1,5 +1,7 @@
-import { requireNativeComponent } from 'react-native';
+import { NativeModules } from 'react-native';
 
-const ColorPicker = requireNativeComponent('RNCColorPicker');
+const { RNCColorPicker } = NativeModules;
 
-export default ColorPicker;
+// const ColorPicker = requireNativeComponent('RNCColorPicker');
+
+export default RNCColorPicker;
