@@ -42,7 +42,10 @@ const { RNCColorPicker } = NativeModules as {
 };
 
 const ColorPicker = {
-  showColorPicker: (options?: ColorPickerInputOptions) => {
+  showColorPicker: (
+    options?: ColorPickerInputOptions,
+    callback?: (color: string) => void
+  ) => {
     const convertedOptions = {
       ...options,
       initialColor: options?.initialColor
