@@ -1,25 +1,18 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import ColorPickerIos from 'react-native-color-picker-ios';
+import { StyleSheet, SafeAreaView } from 'react-native';
+import ColorPicker from 'react-native-color-picker-ios';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    ColorPickerIos.multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <ColorPicker />
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
   },
 });

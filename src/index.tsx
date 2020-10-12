@@ -1,9 +1,5 @@
-import { NativeModules } from 'react-native';
+import { requireNativeComponent } from 'react-native';
 
-type ColorPickerIosType = {
-  multiply(a: number, b: number): Promise<number>;
-};
+const ColorPicker = requireNativeComponent('RNCColorPicker');
 
-const { ColorPickerIos } = NativeModules;
-
-export default ColorPickerIos as ColorPickerIosType;
+export default ColorPicker;
