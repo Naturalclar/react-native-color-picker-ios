@@ -4,7 +4,7 @@ import ColorPicker from 'react-native-color-picker-ios';
 
 export default function App() {
   const handlePress = () => {
-    ColorPicker.showColorPicker({ supportsAlpha: true });
+    ColorPicker.showColorPicker({ supportsAlpha: true, initialColor: 'cyan' });
   };
   return (
     <SafeAreaView style={styles.container}>

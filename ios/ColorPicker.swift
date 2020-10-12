@@ -3,22 +3,25 @@
 class ColorPickerProxy: UIViewController, UIColorPickerViewControllerDelegate {
         
     var picker: UIColorPickerViewController!
-    var options: Dictionary = ["supportsAlpha":false]
+    var supportsAlpha:Bool = false
+    var initialColor:UIColor!
 
     @objc
     func showColorPicker(_ options:NSDictionary){
-        self.options["supportsAlpha"]=(options["supportsAlpha"] as? NSNumber) == 1 ? true : false
-        
+        self.supportsAlpha=(options["supportsAlpha"] as? NSNumber) == 1 ? true : false
+        self.initialColor=RCTConvert.uiColor(options["initialColor"]) ?? UIColor(ciColor: .black)
+                                                        
         DispatchQueue.main.async {
             self.launchColorPicker()
         }
     }
     
     func launchColorPicker() {
-        let supportsAlpha:Bool = self.options["supportsAlpha"] ?? false
         self.picker = UIColorPickerViewController()
         self.picker.delegate = self
-        self.picker.supportsAlpha=supportsAlpha
+                
+        self.picker.supportsAlpha=self.supportsAlpha
+        self.picker.selectedColor=self.initialColor
         
         let root = RCTPresentedViewController()
         root!.present(self.picker, animated: true, completion: nil)

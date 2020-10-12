@@ -1,12 +1,27 @@
-import { NativeModules } from 'react-native';
+import { NativeModules, processColor } from 'react-native';
 
-type ColorPickerOptions = {
+/**
+ * Type of option used in JS side
+ */
+type ColorPickerInputOptions = {
   /**
    * whether alpha is supported or not.
    * if true, user can chose the opacity of the color
    * @default false
    */
   supportsAlpha?: boolean;
+  /**
+   * initial color displayed on the picker
+   */
+  initialColor?: string;
+};
+
+/**
+ * Actual options to be passed to Native Module
+ */
+type ColorPickerNativeOptions = {
+  supportsAlpha?: boolean;
+  initialColor?: number;
 };
 
 type ColorPickerMethods = {
@@ -14,7 +29,7 @@ type ColorPickerMethods = {
     /**
      * options for color picker
      */
-    options?: ColorPickerOptions,
+    options?: ColorPickerNativeOptions,
     /**
      * callback method once color is chosen
      */
@@ -27,8 +42,15 @@ const { RNCColorPicker } = NativeModules as {
 };
 
 const ColorPicker = {
-  showColorPicker: (options?: ColorPickerOptions) => {
-    RNCColorPicker.showColorPicker(options || {});
+  showColorPicker: (options?: ColorPickerInputOptions) => {
+    const convertedOptions = {
+      ...options,
+      initialColor: options?.initialColor
+        ? processColor(options.initialColor)
+        : undefined,
+    };
+
+    RNCColorPicker.showColorPicker(convertedOptions);
   },
 };
 
