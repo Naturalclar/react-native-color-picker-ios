@@ -6,6 +6,10 @@
 
 iOS14 Color Picker Module for React Native
 
+| Grid | Spectrum | Sliders |
+| --- | --- | --- | 
+| <img src="https://user-images.githubusercontent.com/6936373/95818710-758a8a80-0d5f-11eb-8e45-fb0573049c34.jpeg" width="320"/> | <img src="https://user-images.githubusercontent.com/6936373/95818705-73283080-0d5f-11eb-8a10-c0f166ed13a9.jpeg" width="320"/> | <img src="https://user-images.githubusercontent.com/6936373/95818711-76232100-0d5f-11eb-802f-9cbe76454e8d.jpeg" width="320"/> |
+
 ## Installation
 
 - using `npm`:
