@@ -43,7 +43,7 @@ jobs:
       - name: Install Dependencies
         run: yarn
       - name: TypeScript type check
-        run: yarn type-check
+        run: yarn typescript
   android:
     runs-on: ubuntu-18.04
     strategy:
