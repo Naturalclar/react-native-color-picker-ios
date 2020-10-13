@@ -1,6 +1,6 @@
 # react-native-color-picker-ios
 
-[![BuildStatus][build-badge]][build]]
+[![BuildStatus][build-badge]][build]
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
 
