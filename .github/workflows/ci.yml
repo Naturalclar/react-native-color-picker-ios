@@ -85,4 +85,4 @@ jobs:
       - name: Install Dependencies
         run: yarn && yarn bootstrap
       - name: Build example app
-        run: yarn ios
+        run: cd example && yarn ios
