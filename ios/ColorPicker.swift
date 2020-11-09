@@ -4,13 +4,15 @@ class ColorPickerProxy: UIViewController, UIColorPickerViewControllerDelegate {
         
     var picker: UIColorPickerViewController!
     var supportsAlpha:Bool = false
-    var initialColor:UIColor!
+    var initialColor:UIColor = UIColor(ciColor: .black)
     var callback: RCTResponseSenderBlock!
 
     @objc
     func showColorPicker(_ options:NSDictionary, callback:@escaping RCTResponseSenderBlock){
-        self.supportsAlpha=(options["supportsAlpha"] as? NSNumber) == 1 ? true : false
-        self.initialColor=RCTConvert.uiColor(options["initialColor"]) ?? UIColor(ciColor: .black)
+        if (options["supportsAlpha"] as? NSNumber == 1) {
+            self.supportsAlpha = true
+        }
+        self.initialColor=RCTConvert.uiColor(options["initialColor"])
         self.callback=callback
                                                         
         DispatchQueue.main.async {
@@ -25,9 +27,9 @@ class ColorPickerProxy: UIViewController, UIColorPickerViewControllerDelegate {
         self.picker.supportsAlpha=self.supportsAlpha
         self.picker.selectedColor=self.initialColor
         
-        let root = RCTPresentedViewController()
-        root!.present(self.picker, animated: true, completion: nil)
-
+        if let root = RCTPresentedViewController() {
+            root.present(self.picker, animated: true, completion: nil)
+        }
     }
     
     //  Called once you have finished picking the color.
@@ -46,7 +48,5 @@ class ColorPickerProxy: UIViewController, UIColorPickerViewControllerDelegate {
         let hexString = String(format: "#%02lX%02lX%02lX%02lX", lroundf(Float(r * 255)), lroundf(Float(g * 255)), lroundf(Float(b * 255)), lroundf(Float(a * 255)))
         return hexString
      }
-    
-    
 }
 
