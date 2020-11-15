@@ -1,4 +1,4 @@
-import { NativeModules, processColor } from 'react-native';
+import { ColorValue, NativeModules, processColor } from 'react-native';
 
 /**
  * Type of option used in JS side
@@ -13,7 +13,7 @@ type ColorPickerInputOptions = {
   /**
    * initial color displayed on the picker
    */
-  initialColor?: string;
+  initialColor?: ColorValue;
 };
 
 /**
@@ -21,7 +21,7 @@ type ColorPickerInputOptions = {
  */
 type ColorPickerNativeOptions = {
   supportsAlpha?: boolean;
-  initialColor?: number;
+  initialColor?: number | symbol | null;
 };
 
 type ColorPickerMethods = {
