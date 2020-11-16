@@ -8,6 +8,11 @@ class ColorPickerProxy: UIViewController, UIColorPickerViewControllerDelegate {
     var callback: RCTResponseSenderBlock!
 
     @objc
+    static func requiresMainQueueSetup() -> Bool {
+        return true
+    }
+
+    @objc
     func showColorPicker(_ options:NSDictionary, callback:@escaping RCTResponseSenderBlock){
         if (options["supportsAlpha"] as? NSNumber == 1) {
             self.supportsAlpha = true
