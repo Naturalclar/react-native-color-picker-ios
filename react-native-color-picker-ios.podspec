@@ -10,12 +10,11 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = package["author"]
 
-  s.platforms    = { :ios => "9.0" }
+  s.platforms    = { :ios => "9.0", :osx => "10.9" }
   s.source       = { :git => "https://github.com/Naturalclar/react-native-color-picker-ios.git", :tag => "#{s.version}" }
 
-  
-  s.source_files = "ios/**/*.{h,m,mm,swift}"
-  
+  s.ios.source_files = "ios/**/*.{h,m,mm,swift}"
+  s.osx.source_files = "macos/**/*.{h,m,mm,swift}"
 
   s.dependency "React"
 end

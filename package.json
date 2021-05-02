@@ -13,6 +13,7 @@
     "android",
     "ios",
     "cpp",
+    "macos",
     "react-native-color-picker-ios.podspec",
     "!lib/typescript/example",
     "!**/__tests__",
@@ -26,8 +27,11 @@
     "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
+    "example:macos": "yarn --cwd exampleMacos",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "pods:macos": "cd exampleMacos/macos && pod-install --quiet",
+    "bootstrap": "yarn example && yarn && yarn pods",
+    "bootstrap:macos": "yarn example:macos && yarn && yarn pods:macos"
   },
   "keywords": [
     "react-native",
