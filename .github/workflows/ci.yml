@@ -49,11 +49,16 @@ jobs:
     strategy:
       matrix:
         node-version: [16]
+        java-version: [11]        
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu' # See 'Supported distributions' for available options
+          java-version: ${{ matrix.java-version }}
       - name: Get yarn cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -65,7 +70,7 @@ jobs:
         run: yarn
       - name: Install Example
         run: cd example && yarn
-      - name: Build ios
+      - name: Build android
         run: cd example && yarn build:android
       - name: Run android app
         run: cd example && yarn android
