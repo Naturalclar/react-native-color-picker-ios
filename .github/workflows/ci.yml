@@ -95,9 +95,9 @@ jobs:
         run: yarn
       - name: Install Example
         run: cd example && yarn
-      - name: Pod install
-        run: cd example && pod install --project-directory=ios
       - name: Build ios
         run: cd example && yarn build:ios  
+      - name: Pod install
+        run: cd example && pod install --project-directory=ios
       - name: Run ios app
         run: cd example && yarn ios
