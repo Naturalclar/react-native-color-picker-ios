@@ -6,11 +6,16 @@ import {
   SafeAreaView,
   TouchableOpacity,
   Text,
+  useColorScheme,
 } from 'react-native';
 import ColorPicker from 'react-native-color-picker-ios';
 
 export default function App() {
-  const [selectedColor, setSelectedColor] = useState('black');
+  const colorScheme = useColorScheme();
+
+  const [selectedColor, setSelectedColor] = useState(
+    colorScheme === 'dark' ? '#ddd' : '#000'
+  );
   const handlePress = () => {
     ColorPicker.showColorPicker(
       { supportsAlpha: true, initialColor: selectedColor },
@@ -19,10 +24,17 @@ export default function App() {
       }
     );
   };
+
+  const textStyle = React.useMemo(
+    () => ({
+      color: colorScheme === 'dark' ? '#ddd' : '#000',
+    }),
+    [colorScheme]
+  );
   return (
     <SafeAreaView style={styles.container}>
       <TouchableOpacity onPress={handlePress} style={styles.textContainer}>
-        <Text>Open Color Picker</Text>
+        <Text style={textStyle}>Open Color Picker</Text>
       </TouchableOpacity>
       <View style={styles.textContainer}>
         <Text>Currently selected color:</Text>
