@@ -62,9 +62,13 @@ jobs:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
       - name: Install Dependencies
-        run: yarn && yarn bootstrap
-      - name: Build Android Example App and Library
-        run: cd example/android && ./gradlew clean assembleDebug
+        run: yarn
+      - name: Install Example
+        run: cd example && yarn
+      - name: Build ios
+        run: cd example && yarn build:android
+      - name: Run android app
+        run: cd example && yarn android
   ios:
     runs-on: macos-latest
     strategy:
@@ -83,6 +87,12 @@ jobs:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
       - name: Install Dependencies
-        run: yarn && yarn bootstrap
-      - name: Build example app
+        run: yarn
+      - name: Install Example
+        run: cd example && yarn
+      - name: Pod install
+        run: cd example && pod install --project-directory=ios
+      - name: Build ios
+        run: cd example && yarn build:ios  
+      - name: Run ios app
         run: cd example && yarn ios
