@@ -72,8 +72,8 @@ jobs:
         run: cd example && yarn
       - name: Build android
         run: cd example && yarn build:android
-      - name: Run android app
-        run: cd example && yarn android
+      - name: Build Android Example App and Library
+        run: cd example/android && ./gradlew clean assembleDebug
   ios:
     runs-on: macos-latest
     strategy:
