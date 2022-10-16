@@ -9458,9 +9458,9 @@ plist@^3.0.2, plist@^3.0.5:
     xmlbuilder "^15.1.1"
 
 pod-install@^0.1.0:
-  version "0.1.29"
-  resolved "https://registry.yarnpkg.com/pod-install/-/pod-install-0.1.29.tgz#43222b5ebe9006ebf13134b25495bcede7de2f7a"
-  integrity sha512-fSU1bciYWXEvcDFwTKj8gBL8dYNvxPgibxhT5Z4I67AsHXH56uyPk2hE/HiH1pSkQ7ECWMAR1E0HX066T0RZ8Q==
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/pod-install/-/pod-install-0.1.38.tgz#1c16a800a5fc1abea0cafcc0e190f376368c76ab"
+  integrity sha512-NeDWGigjJRriOIKBOvpW2/tK2tYLfyUT7ia6C6L+oarCAhBNP+IGODWdU+GEAqvfsseqOApcFclpXAJTL0UPzA==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
