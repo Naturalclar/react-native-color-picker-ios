@@ -8675,9 +8675,9 @@ react-native-gradle-plugin@^0.0.6:
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
 react-native-test-app@^2.0.0:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-2.0.4.tgz#b1833aacb052e067728b59dae91306a929592135"
-  integrity sha512-GDdLeLrNfRQwPd2L9wQv76SrqMTPjWPO/wrj6MHHX0cswdM5fh//8+0ag54lvmECqW2lh9xLeTayYYQ07EHisg==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-2.1.1.tgz#a66b8705e80a7f53730c4bb1591708e222e6a860"
+  integrity sha512-8+CNMEGk83yM+fCOKnFwUx6Ui4MT8ARKrtPIncIlBe82/k0pnUUYwFZhJodFgz4jd/D+ry6/XKv0nm8iqAse8w==
   dependencies:
     ajv "^8.0.0"
     chalk "^4.1.0"
