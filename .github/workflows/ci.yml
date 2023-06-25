@@ -3,10 +3,10 @@ on: push
 
 jobs:
   lint:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16]
+        node-version: [16, 18]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -24,10 +24,10 @@ jobs:
       - name: ESLint Checks
         run: yarn lint
   tsc:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16]
+        node-version: [16, 18]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -45,11 +45,11 @@ jobs:
       - name: TypeScript type check
         run: yarn typescript
   android:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16]
-        java-version: [11]        
+        node-version: [16, 18]
+        java-version: [11]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -78,7 +78,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        node-version: [16]
+        node-version: [16, 18]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -96,7 +96,7 @@ jobs:
       - name: Install Example
         run: cd example && yarn
       - name: Build ios
-        run: cd example && yarn build:ios  
+        run: cd example && yarn build:ios
       - name: Pod install
         run: cd example && pod install --project-directory=ios
       - name: Run ios app
