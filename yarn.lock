@@ -8788,9 +8788,9 @@ react-native-gradle-plugin@^0.0.6:
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
 react-native-test-app@^2.0.0:
-  version "2.5.16"
-  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-2.5.16.tgz#3ffdb6e0477cca4d2dda5b7569d3a323878f7cc2"
-  integrity sha512-Y4p1LY8/0QWhVa4qFuRwr73rmGBAfRjkDhrEpvcPsJajm2K0TCdouKsat1j5qjZbdcyGPYJXLUoJA87lPwzsRQ==
+  version "2.5.20"
+  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-2.5.20.tgz#4138f83e41073ac7c22d2964f3757cc8048d86b6"
+  integrity sha512-VeP/VdnmTXKbkvUCWdE1UICstTXtMmkG0TlUGoPz6auih5ljNFdYC3JR+knCCeMijS+q2cjFqk9IoI1VoJTNLg==
   dependencies:
     "@rnx-kit/react-native-host" "^0.2.8"
     ajv "^8.0.0"
