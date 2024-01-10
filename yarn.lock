@@ -2619,10 +2619,10 @@
     conventional-recommended-bump "^8.0.0"
     semver "^7.5.4"
 
-"@rnx-kit/react-native-host@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@rnx-kit/react-native-host/-/react-native-host-0.2.9.tgz#ee9fd61254dbca75383b5fcdf9c8bb1f630b0985"
-  integrity sha512-iQWmisL5/UCp+U3vD1GqGThvBcTsgOpa/6p6IHKpywTfOLTNkdZiCDCHwHBekw3amedhGPdxCP7lmEbuVF8Udw==
+"@rnx-kit/react-native-host@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@rnx-kit/react-native-host/-/react-native-host-0.3.1.tgz#57f8492dd77cc5146f5f9bc2c1ea3e5eb2bed293"
+  integrity sha512-2UDRi7V0q0CTNiYB/48aHeu7L7nYGv5VQqnYTwidyaVnjdF4igvUQT+Y9YhxDKKp9QgaRejbMvFBcGqrNmlQYA==
 
 "@sideway/address@^4.1.3":
   version "4.1.4"
@@ -8826,12 +8826,12 @@ react-native-gradle-plugin@^0.0.6:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
-react-native-test-app@^2.0.0:
-  version "2.5.35"
-  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-2.5.35.tgz#11bf4cb46faa8df5f3e28a5ef9578c3cfbbf4d53"
-  integrity sha512-B3Y0aE5wM+tGJbJRTk/CnxZvZKtn8XlNHB5i5Z8DjF4E+IHzUStDtK3yaak1wCDHYjJkh11Lm9VdmAGcko7Xgg==
+react-native-test-app@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-3.0.0.tgz#2f3f13c441be76ff255305b58173ae28c685d903"
+  integrity sha512-dL8VytzuoUfroS3un9UfUK+IqzkgspbapvfGhblQvUcVBxgtsfmO8S0V9/n5i/0bbG+LEfkLjFGUTLXOcsMEmw==
   dependencies:
-    "@rnx-kit/react-native-host" "^0.2.9"
+    "@rnx-kit/react-native-host" "^0.3.1"
     ajv "^8.0.0"
     chalk "^4.1.0"
     cliui "^8.0.0"
