@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 7
+  version: 6
   cacheKey: 9
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -7417,9 +7417,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A^2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -12059,22 +12059,22 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-native-color-picker-ios@workspace:."
   dependencies:
-    "@react-native-community/bob": "npm:^0.17.1"
-    "@react-native-community/eslint-config": "npm:^3.2.0"
-    "@release-it/conventional-changelog": "npm:^7.0.0"
-    "@types/jest": "npm:^29.1.2"
-    "@types/react": "npm:^17.0.0"
-    "@types/react-native": "npm:^0.64.1"
-    eslint: "npm:^8.25.0"
-    eslint-config-prettier: "npm:^9.0.0"
-    eslint-plugin-prettier: "npm:^5.0.0"
-    jest: "npm:^29.2.0"
-    prettier: "npm:^3.1.1"
-    react: "npm:17.0.2"
-    react-native: "npm:^0.68.0"
-    react-native-test-app: "npm:^2.0.0"
-    release-it: "npm:^16.1.5"
-    typescript: "npm:4.8.4"
+    "@react-native-community/bob": ^0.17.1
+    "@react-native-community/eslint-config": ^3.2.0
+    "@release-it/conventional-changelog": ^7.0.0
+    "@types/jest": ^29.1.2
+    "@types/react": ^17.0.0
+    "@types/react-native": ^0.64.1
+    eslint: ^8.25.0
+    eslint-config-prettier: ^9.0.0
+    eslint-plugin-prettier: ^5.0.0
+    jest: ^29.2.0
+    prettier: ^3.1.1
+    react: 17.0.2
+    react-native: ^0.68.0
+    react-native-test-app: ^2.0.0
+    release-it: ^16.1.5
+    typescript: 5.3.3
   peerDependencies:
     react: "*"
     react-native: "*"
@@ -12552,38 +12552,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.6#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.8.1#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.8.1#~builtin<compat/resolve>":
   version: 1.17.0
-  resolution: "resolve@patch:resolve@npm%3A1.17.0#optional!builtin<compat/resolve>::version=1.17.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.17.0#~builtin<compat/resolve>::version=1.17.0&hash=c3c19d"
   dependencies:
     path-parse: "npm:^1.0.6"
-  checksum: d92ca94a9d357429954e1546d0e71eb431c8e5e3dfc699ca6bf0564d165e3dfbf3ec7af6c6180935df9bd77dddd73a411bc9a4c1edb9ca1d74202487a5ede901
+  checksum: 8/6fd799f282ddf078c4bc20ce863e3af01fa8cb218f0658d9162c57161a2dbafe092b13015b9a4c58d0e1e801cf7aa7a4f13115fea9db98c3f9a0c43e429bad6f
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.9.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: a6f214b97d932445796f78dab7a898ec78966327e0d6cb571f90b6ac0f3b3347bf6bab0a071d899bfdc316b26ed845f6655310b38b8f6ee4da5272a0c5ecef85
+  checksum: 8/5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^2.0.0-next.3#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^2.0.0-next.3#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#optional!builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.9.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 04c825cca722397520f79c0d7a9160259032af786efcc9d434c728e5e69117a9241da844a9ca3cc430fe63a0c41571c8ac9f193dd3216a3b65a14d7850f8ef5d
+  checksum: 8/4bf9f4f8a458607af90518ff73c67a4bc1a38b5a23fef2bb0ccbd45e8be89820a1639b637b0ba377eb2be9eedfb1739a84cde24fe4cd670c8207d8fea922b011
   languageName: node
   linkType: hard
 
@@ -14000,23 +14000,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.8.4":
-  version: 4.8.4
-  resolution: "typescript@npm:4.8.4"
+"typescript@npm:5.3.3":
+  version: 5.3.3
+  resolution: "typescript@npm:5.3.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 008c336ed785130b6e13254adbfc4084f5dbbe62851df9bac3eaf62fc29e0a396839c00ce47e0d92db44fa9a08b9f7ba4d31304f2b10cf7d42a0817728e822a1
+  checksum: 8/2007ccb6e51bbbf6fde0a78099efe04dc1c3dfbdff04ca3b6a8bc717991862b39fd6126c0c3ebf2d2d98ac5e960bcaa873826bb2bb241f14277034148f41f6a2
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A4.8.4#optional!builtin<compat/typescript>":
-  version: 4.8.4
-  resolution: "typescript@patch:typescript@npm%3A4.8.4#optional!builtin<compat/typescript>::version=4.8.4&hash=1a91c8"
+"typescript@patch:typescript@5.3.3#~builtin<compat/typescript>":
+  version: 5.3.3
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f6e45be090c6971bf57d07481cb7bd896303ffaee35b5a52a3418908d3cd252b20f5d25b5b1ebaf5c52754f9802421542b4aa70093744cb6d6b306936b5053bb
+  checksum: 8/4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
