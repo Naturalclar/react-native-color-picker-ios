@@ -56,7 +56,7 @@
     "react-native": "^0.68.0",
     "react-native-test-app": "^2.0.0",
     "release-it": "^16.1.5",
-    "typescript": "4.8.4"
+    "typescript": "5.4.3"
   },
   "peerDependencies": {
     "react": "*",
