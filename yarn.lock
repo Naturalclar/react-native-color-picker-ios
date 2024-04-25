@@ -3848,7 +3848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.0":
+"@types/react@npm:*":
   version: 17.0.14
   resolution: "@types/react@npm:17.0.14"
   dependencies:
@@ -3856,6 +3856,16 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: ca2eca8f33ddbcba46932efeb8affdd274ea5800ea38bf8bc8de205808d09de21ea1f3d6ab156573aca393b912f0d908826cc6ad92470a3f2b6c34e70d5f75db
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.3.0":
+  version: 18.3.0
+  resolution: "@types/react@npm:18.3.0"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: 6addfffcf6220157217fd1487d831b41e725e170887a83bd4379e00b67c553dbb7b283c5f4555102f56536539f1f712635d27e27f377d17c2c0f171b66bc2f2d
   languageName: node
   linkType: hard
 
@@ -12063,14 +12073,14 @@ __metadata:
     "@react-native-community/eslint-config": ^3.2.0
     "@release-it/conventional-changelog": ^7.0.0
     "@types/jest": ^29.1.2
-    "@types/react": ^17.0.0
+    "@types/react": ^18.3.0
     "@types/react-native": ^0.64.1
     eslint: ^8.25.0
     eslint-config-prettier: ^9.0.0
     eslint-plugin-prettier: ^5.0.0
     jest: ^29.2.0
     prettier: ^3.1.1
-    react: 17.0.2
+    react: 18.3.0
     react-native: ^0.68.0
     react-native-test-app: ^2.0.0
     release-it: ^16.1.5
@@ -12186,13 +12196,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
+"react@npm:18.3.0":
+  version: 18.3.0
+  resolution: "react@npm:18.3.0"
   dependencies:
-    loose-envify: "npm:^1.1.0"
-    object-assign: "npm:^4.1.1"
-  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
+    loose-envify: ^1.1.0
+  checksum: f1389bf7f9cc9295fded895635e54c4bf73626a8ea51afaa2da4988f89e71b68f249c1782f832d5912ba7d437da9292fc44ecf7c3dff072879253df93d703a10
   languageName: node
   linkType: hard
 
