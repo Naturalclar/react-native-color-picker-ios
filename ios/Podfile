@@ -4,6 +4,6 @@ ws_dir = ws_dir.parent until
   ws_dir.expand_path.to_s == '/'
 require "#{ws_dir}/node_modules/react-native-test-app/test_app.rb"
 
-workspace '# OR: npx init-test-app# ✔ What is the name of your test app? … WebviewExample# ✔ Which platforms do you need test apps for? › Android, iOS, macOS, Windows# ✔ Where should we create the new project? … example.xcworkspace'
+workspace 'ReactTestApp.xcworkspace'
 
 use_test_app!
