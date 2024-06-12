@@ -1,5 +1,5 @@
 {
-  "name": "# OR: npx init-test-app# ✔ What is the name of your test app? … WebviewExample# ✔ Which platforms do you need test apps for? › Android, iOS, macOS, Windows# ✔ Where should we create the new project? … example",
+  "name": "example",
   "version": "0.0.1",
   "private": true,
   "scripts": {
