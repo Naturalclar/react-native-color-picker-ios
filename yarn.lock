@@ -3569,12 +3569,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rnx-kit/react-native-host@npm:^0.2.9":
-  version: 0.2.9
-  resolution: "@rnx-kit/react-native-host@npm:0.2.9"
+"@rnx-kit/react-native-host@npm:^0.4.11":
+  version: 0.4.11
+  resolution: "@rnx-kit/react-native-host@npm:0.4.11"
   peerDependencies:
-    react-native: ">=0.64"
-  checksum: 8/1d7678930cd59b6ca84b9858ef0834991f89909df0a4f8176592d967d921d547405431f7518803b29bc4cb1bddc722898c42758b2a8889df11f0550283dff146
+    react-native: ">=0.66"
+  checksum: 10c0/a5aef6f0e8efc69cc7b01315ad36bb9707182282fa70d74ac2ac4e33f1d61716cb1e396e48528081528f9798c434f797764fc3d46afbe16e53b59771a14cabaa
   languageName: node
   linkType: hard
 
@@ -10723,7 +10723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.8":
+"minimist@npm:^1.2.0, minimist@npm:^1.2.5":
   version: 1.2.8
   resolution: "minimist@npm:1.2.8"
   checksum: 8/75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
@@ -12075,7 +12075,7 @@ __metadata:
     prettier: "npm:^3.1.1"
     react: "npm:17.0.2"
     react-native: "npm:^0.68.0"
-    react-native-test-app: "npm:^2.0.0"
+    react-native-test-app: "npm:^3.8.13"
     release-it: "npm:^17.2.1"
     typescript: "npm:4.9.4"
   peerDependencies:
@@ -12091,26 +12091,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-test-app@npm:^2.0.0":
-  version: 2.5.35
-  resolution: "react-native-test-app@npm:2.5.35"
+"react-native-test-app@npm:^3.8.13":
+  version: 3.8.13
+  resolution: "react-native-test-app@npm:3.8.13"
   dependencies:
-    "@rnx-kit/react-native-host": "npm:^0.2.9"
+    "@rnx-kit/react-native-host": "npm:^0.4.11"
     ajv: "npm:^8.0.0"
-    chalk: "npm:^4.1.0"
     cliui: "npm:^8.0.0"
     fast-xml-parser: "npm:^4.0.0"
-    minimist: "npm:^1.2.8"
     prompts: "npm:^2.4.0"
     semver: "npm:^7.3.5"
-    uuid: "npm:^8.3.2"
+    uuid: "npm:^9.0.0"
   peerDependencies:
+    "@callstack/react-native-visionos": 0.73 - 0.74
     "@expo/config-plugins": ">=5.0"
-    react: 17.0.1 - 18.2
-    react-native: ^0.0.0-0 || 0.64 - 0.73 || 1000.0.0
-    react-native-macos: ^0.0.0-0 || 0.64 || 0.66 || 0.68 || 0.71 - 0.73
-    react-native-windows: ^0.0.0-0 || 0.64 - 0.73
+    react: 17.0.1 - 18.3
+    react-native: 0.66 - 0.74 || >=0.75.0-0 <0.75.0
+    react-native-macos: ^0.0.0-0 || 0.66 || 0.68 || 0.71 - 0.73
+    react-native-windows: ^0.0.0-0 || 0.66 - 0.74
   peerDependenciesMeta:
+    "@callstack/react-native-visionos":
+      optional: true
     "@expo/config-plugins":
       optional: true
     react-native-macos:
@@ -12118,11 +12119,11 @@ __metadata:
     react-native-windows:
       optional: true
   bin:
-    configure-test-app: scripts/configure.js
-    init: scripts/init.js
-    init-test-app: scripts/init.js
-    install-windows-test-app: windows/test-app.js
-  checksum: 8/7c76bf12b728b8dffb96c7adaae751fc52d855084731b3b1cb2c2e41ee9daf7db0aa14defb76dd1e4741583c2413d3bc89fb6e495f15bfb6bee062eb4fd7a3a3
+    configure-test-app: scripts/configure.mjs
+    init: scripts/init.mjs
+    init-test-app: scripts/init.mjs
+    install-windows-test-app: windows/test-app.mjs
+  checksum: 10c0/f1aa229828d6f4c7111265bb8cfe8b6f76ab8d2154e2fde8cb826b3cc3a04e263685659c8d0cfb7244698b297116561cab4482b84eba769f8ef0aaca31a96df7
   languageName: node
   linkType: hard
 
@@ -14299,12 +14300,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.2":
-  version: 8.3.2
-  resolution: "uuid@npm:8.3.2"
+"uuid@npm:^9.0.0":
+  version: 9.0.1
+  resolution: "uuid@npm:9.0.1"
   bin:
     uuid: dist/bin/uuid
-  checksum: 8/5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
+  checksum: 10c0/1607dd32ac7fc22f2d8f77051e6a64845c9bce5cd3dd8aa0070c074ec73e666a1f63c7b4e0f4bf2bc8b9d59dc85a15e17807446d9d2b17c8485fbc2147b27f9b
   languageName: node
   linkType: hard
 
