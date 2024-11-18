@@ -57,7 +57,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - uses: actions/setup-java@v3
         with:
-          distribution: 'zulu' # See 'Supported distributions' for available options
+          distribution: "zulu" # See 'Supported distributions' for available options
           java-version: ${{ matrix.java-version }}
       - name: Get yarn cache
         id: yarn-cache
@@ -100,4 +100,4 @@ jobs:
       - name: Pod install
         run: cd example && pod install --project-directory=ios
       - name: Run ios app
-        run: cd example && yarn ios
+        run: cd example && yarn ios --no-packager
