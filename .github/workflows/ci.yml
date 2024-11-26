@@ -100,4 +100,4 @@ jobs:
       - name: Pod install
         run: cd example && pod install --project-directory=ios
       - name: Run ios app
-        run: cd example && yarn ios
+        run: cd example && yarn ios --no-packager
