@@ -1579,9 +1579,9 @@
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@rnx-kit/tools-node/-/tools-node-3.0.0.tgz#561b3ba798766e532319d72ffca44349acf5e680"
 
-"@rnx-kit/tools-react-native@^2.0.1":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@rnx-kit/tools-react-native/-/tools-react-native-2.0.2.tgz#2857a8075c1032043acb1f856343db56fd6a355e"
+"@rnx-kit/tools-react-native@^2.0.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@rnx-kit/tools-react-native/-/tools-react-native-2.0.3.tgz#00a45a802e46428a795b146f425b1262204c3699"
   dependencies:
     "@rnx-kit/tools-node" "^3.0.0"
 
@@ -4833,11 +4833,11 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
 
 react-native-test-app@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.0.4.tgz#47b025c97f8da54acf74f8141df367e7406882a9"
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.0.5.tgz#6223ee12886f4ffed00ff2306530736cf29d9181"
   dependencies:
     "@rnx-kit/react-native-host" "^0.5.0"
-    "@rnx-kit/tools-react-native" "^2.0.1"
+    "@rnx-kit/tools-react-native" "^2.0.2"
     ajv "^8.0.0"
     cliui "^8.0.0"
     fast-xml-parser "^4.0.0"
