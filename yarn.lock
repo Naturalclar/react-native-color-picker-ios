@@ -1571,9 +1571,9 @@
     git-semver-tags "^8.0.0"
     semver "^7.6.3"
 
-"@rnx-kit/react-native-host@^0.5.0":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@rnx-kit/react-native-host/-/react-native-host-0.5.1.tgz#b7aa4ce75d5749b0b2c88ed2f9df4ada9ea01979"
+"@rnx-kit/react-native-host@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@rnx-kit/react-native-host/-/react-native-host-0.5.2.tgz#a6d7503846501a4de3fdd995ce5d11f271aaa42b"
 
 "@rnx-kit/tools-node@^3.0.0":
   version "3.0.0"
@@ -4833,10 +4833,10 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
 
 react-native-test-app@^4.0.4:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.0.5.tgz#6223ee12886f4ffed00ff2306530736cf29d9181"
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.0.7.tgz#9795ec54b308445ca757858f0fdf85dbb6b733de"
   dependencies:
-    "@rnx-kit/react-native-host" "^0.5.0"
+    "@rnx-kit/react-native-host" "^0.5.2"
     "@rnx-kit/tools-react-native" "^2.0.2"
     ajv "^8.0.0"
     cliui "^8.0.0"
