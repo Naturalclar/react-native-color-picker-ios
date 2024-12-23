@@ -1562,8 +1562,8 @@
     nullthrows "^1.1.1"
 
 "@release-it/conventional-changelog@^9.0.3":
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/@release-it/conventional-changelog/-/conventional-changelog-9.0.3.tgz#4d8a4b07a7bba8c6ed151ea8ae75bca15d3219eb"
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/@release-it/conventional-changelog/-/conventional-changelog-9.0.4.tgz#d9b19b77f3ce1cd4872938cbc4ca32013b7ac87f"
   dependencies:
     concat-stream "^2.0.0"
     conventional-changelog "^6.0.0"
