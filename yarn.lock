@@ -4837,8 +4837,8 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
 
 react-native-test-app@^4.0.4:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.0.8.tgz#653fcf0e460e187c378ab65848aa33153cadd42a"
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.0.9.tgz#77409c2d4f4bda0e20d268cdbc0aa2e614fb2b30"
   dependencies:
     "@rnx-kit/react-native-host" "^0.5.2"
     "@rnx-kit/tools-react-native" "^2.0.2"
@@ -4847,7 +4847,7 @@ react-native-test-app@^4.0.4:
     fast-xml-parser "^4.0.0"
     prompts "^2.4.0"
     semver "^7.3.5"
-    uuid "^10.0.0"
+    uuid "^11.0.0"
 
 react-native@0.76.3:
   version "0.76.3"
@@ -5634,9 +5634,9 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
-uuid@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz#5a95aa454e6e002725c79055fd42aaba30ca6294"
+uuid@^11.0.0:
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-11.0.5.tgz#07b46bdfa6310c92c3fb3953a8720f170427fc62"
 
 v8-to-istanbul@^9.0.1:
   version "9.3.0"
