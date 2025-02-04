@@ -4837,8 +4837,8 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.3.1.tgz#e83557dc12eae63a99e003a46388b1dcbb44db7e"
 
 react-native-test-app@^4.0.4:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.1.0.tgz#fc11fb2f23bc91ddf49323ac8ce896d54b986d79"
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-test-app/-/react-native-test-app-4.1.1.tgz#2d57082f559a6af797a6ccfb84cab77f722cf472"
   dependencies:
     "@rnx-kit/react-native-host" "^0.5.3"
     "@rnx-kit/tools-react-native" "^2.0.2"
