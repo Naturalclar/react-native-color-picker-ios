@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/Naturalclar/react-native-color-picker-ios#readme",
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.2.7",
     "@react-native-community/bob": "^0.17.1",
     "@release-it/conventional-changelog": "^9.0.3",
     "@types/jest": "^29.1.2",
