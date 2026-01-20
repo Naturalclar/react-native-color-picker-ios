@@ -43,14 +43,14 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@react-native-community/bob": "^0.17.1",
-    "@release-it/conventional-changelog": "^9.0.3",
+    "@release-it/conventional-changelog": "^10.0.4",
     "@types/jest": "^30.0.0",
     "@types/react": "^18.2.6",
     "jest": "^30.2.0",
     "react": "18.3.1",
     "react-native": "0.76.3",
     "react-native-test-app": "^5.0.8",
-    "release-it": "^17.2.1",
+    "release-it": "^19.2.4",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
