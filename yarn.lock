@@ -1115,50 +1115,50 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
 
-"@biomejs/biome@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/biome/-/biome-1.9.4.tgz#89766281cbc3a0aae865a7ff13d6aaffea2842bf"
+"@biomejs/biome@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/biome/-/biome-2.4.5.tgz#90e75c1b6c60eb5bf8e8bfb193a1fbe9dc868f16"
   optionalDependencies:
-    "@biomejs/cli-darwin-arm64" "1.9.4"
-    "@biomejs/cli-darwin-x64" "1.9.4"
-    "@biomejs/cli-linux-arm64" "1.9.4"
-    "@biomejs/cli-linux-arm64-musl" "1.9.4"
-    "@biomejs/cli-linux-x64" "1.9.4"
-    "@biomejs/cli-linux-x64-musl" "1.9.4"
-    "@biomejs/cli-win32-arm64" "1.9.4"
-    "@biomejs/cli-win32-x64" "1.9.4"
+    "@biomejs/cli-darwin-arm64" "2.4.5"
+    "@biomejs/cli-darwin-x64" "2.4.5"
+    "@biomejs/cli-linux-arm64" "2.4.5"
+    "@biomejs/cli-linux-arm64-musl" "2.4.5"
+    "@biomejs/cli-linux-x64" "2.4.5"
+    "@biomejs/cli-linux-x64-musl" "2.4.5"
+    "@biomejs/cli-win32-arm64" "2.4.5"
+    "@biomejs/cli-win32-x64" "2.4.5"
 
-"@biomejs/cli-darwin-arm64@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-1.9.4.tgz#dfa376d23a54a2d8f17133c92f23c1bf2e62509f"
+"@biomejs/cli-darwin-arm64@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-2.4.5.tgz#a62472ab3529a3905b16e1f3fdbbc74f2e5f0023"
 
-"@biomejs/cli-darwin-x64@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-darwin-x64/-/cli-darwin-x64-1.9.4.tgz#eafc2ce3849d385fc02238aad1ca4a73395a64d9"
+"@biomejs/cli-darwin-x64@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-darwin-x64/-/cli-darwin-x64-2.4.5.tgz#e8bb001fcf6a8c751b0971cccf53993e9ba2e6e9"
 
-"@biomejs/cli-linux-arm64-musl@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-1.9.4.tgz#d780c3e01758fc90f3268357e3f19163d1f84fca"
+"@biomejs/cli-linux-arm64-musl@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-2.4.5.tgz#b7ef7902237f16113061659a4c54aff5ad4513d5"
 
-"@biomejs/cli-linux-arm64@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-arm64/-/cli-linux-arm64-1.9.4.tgz#8ed1dd0e89419a4b66a47f95aefb8c46ae6041c9"
+"@biomejs/cli-linux-arm64@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-arm64/-/cli-linux-arm64-2.4.5.tgz#f110af748965cb1b57624dbbbd7acba729da8780"
 
-"@biomejs/cli-linux-x64-musl@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-1.9.4.tgz#f36982b966bd671a36671e1de4417963d7db15fb"
+"@biomejs/cli-linux-x64-musl@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-2.4.5.tgz#c3493eba094216e735538c55354dbc8867b51909"
 
-"@biomejs/cli-linux-x64@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-x64/-/cli-linux-x64-1.9.4.tgz#a0a7f56680c76b8034ddc149dbf398bdd3a462e8"
+"@biomejs/cli-linux-x64@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-linux-x64/-/cli-linux-x64-2.4.5.tgz#15805550db4e45ffbd6c42d140d0cb5c6dbe07af"
 
-"@biomejs/cli-win32-arm64@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-arm64/-/cli-win32-arm64-1.9.4.tgz#e2ef4e0084e76b7e26f0fc887c5ef1265ea56200"
+"@biomejs/cli-win32-arm64@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-arm64/-/cli-win32-arm64-2.4.5.tgz#8dae57dc8ffc1e82e00a59e623b5023c09726a4d"
 
-"@biomejs/cli-win32-x64@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-x64/-/cli-win32-x64-1.9.4.tgz#4c7afa90e3970213599b4095e62f87e5972b2340"
+"@biomejs/cli-win32-x64@2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@biomejs/cli-win32-x64/-/cli-win32-x64-2.4.5.tgz#0b4d3355e0d6856cff8ed722e05ec7b0652e43ab"
 
 "@conventional-changelog/git-client@^1.0.0":
   version "1.0.1"
